@@ -2,8 +2,6 @@
 
 Trải nghiệm website 3D tương tác cao cấp cho thương hiệu **FuongYSLComestic** (Haute Couture Beauté Paris Noël Gala 2026).
 
-![FuongYSLComestic Showcase](/public/assets/spotlight-muse.jpg)
-
 ## ✦ Tính Năng Nổi Bật
 
 - **Mô Hình 3D Real-time YSL Monogram (60 FPS)**:

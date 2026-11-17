@@ -1,0 +1,208 @@
+---
+name: Nocturne d'Or Haute Gala
+colors:
+  surface: '#161214'
+  surface-dim: '#161214'
+  surface-bright: '#3d3839'
+  surface-container-lowest: '#110d0e'
+  surface-container-low: '#1f1a1c'
+  surface-container: '#231e20'
+  surface-container-high: '#2d292a'
+  surface-container-highest: '#383335'
+  on-surface: '#e9e0e2'
+  on-surface-variant: '#d0c5af'
+  inverse-surface: '#e9e0e2'
+  inverse-on-surface: '#342f30'
+  outline: '#99907c'
+  outline-variant: '#4d4635'
+  surface-tint: '#e9c349'
+  primary: '#f2ca50'
+  on-primary: '#3c2f00'
+  primary-container: '#d4af37'
+  on-primary-container: '#554300'
+  inverse-primary: '#735c00'
+  secondary: '#ffb3b1'
+  on-secondary: '#670213'
+  secondary-container: '#8b2029'
+  on-secondary-container: '#ff9e9d'
+  tertiary: '#ffbfb7'
+  on-tertiary: '#690005'
+  tertiary-container: '#ff968b'
+  on-tertiary-container: '#90000a'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffe088'
+  primary-fixed-dim: '#e9c349'
+  on-primary-fixed: '#241a00'
+  on-primary-fixed-variant: '#574500'
+  secondary-fixed: '#ffdad8'
+  secondary-fixed-dim: '#ffb3b1'
+  on-secondary-fixed: '#410008'
+  on-secondary-fixed-variant: '#871e26'
+  tertiary-fixed: '#ffdad6'
+  tertiary-fixed-dim: '#ffb4ab'
+  on-tertiary-fixed: '#410002'
+  on-tertiary-fixed-variant: '#93000b'
+  background: '#161214'
+  on-background: '#e9e0e2'
+  surface-variant: '#383335'
+typography:
+  display-hero:
+    fontFamily: Playfair Display
+    fontSize: 72px
+    fontWeight: '600'
+    lineHeight: 80px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Playfair Display
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Playfair Display
+    fontSize: 48px
+    fontWeight: '500'
+    lineHeight: 56px
+    letterSpacing: -0.01em
+  headline-lg-mobile:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 40px
+  headline-md:
+    fontFamily: Playfair Display
+    fontSize: 32px
+    fontWeight: '500'
+    lineHeight: 40px
+  headline-sm:
+    fontFamily: Playfair Display
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  title-editorial:
+    fontFamily: Playfair Display
+    fontSize: 20px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: 0.05em
+  body-lg:
+    fontFamily: Montserrat
+    fontSize: 16px
+    fontWeight: '300'
+    lineHeight: 26px
+    letterSpacing: 0.02em
+  body-md:
+    fontFamily: Montserrat
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0.01em
+  body-sm:
+    fontFamily: Montserrat
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-caps-lg:
+    fontFamily: Montserrat
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.18em
+  label-caps-sm:
+    fontFamily: Montserrat
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.22em
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 4rem
+  margin-tablet: 2rem
+  margin-mobile: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 2rem
+  space-xl: 3.5rem
+---
+
+## Brand & Style
+
+The design system embodies the audacious opulence, sensual subversion, and Paris-at-midnight decadence of an ultra-luxury couture gala. Built for high-net-worth VIPs, couture clientele, and international fashion press, the interface must evoke an immediate sensation of exclusivity, dramatic ceremony, and celebratory indulgence.
+
+The visual style unites **High-Contrast Couture Lacquer** with **Gilded Glassmorphism**:
+- **Glossy Midnight Depths:** Deep obsidian surfaces mimic hand-poured grand piano lacquer and vinyl lip stains.
+- **Imperial Shimmer:** Micro-particle gold dust effects, metallic leaf hairline trims, and rich velvet burgundy undertones.
+- **Architectural Poise:** Dramatic verticality, stark typographic scale contrasts, and generous breathing room evoking luxury editorial lookbooks and engraved gala invitations.
+
+## Colors
+
+The palette operates strictly in a dramatic dark mode, prioritizing chromatic tension between pitch black, blood burgundy, and lustrous champagne gold.
+
+### Roles & Accents
+- **Primary (`#D4AF37` Imperial Champagne Gold):** Key interactive focal points, gala branding, fine borders, and celebratory micro-accents. Supported by `#FFDF73` (highlight shimmer) and `#AA7C11` (burnished gold hover states).
+- **Secondary (`#6B0515` Deep Velvet Burgundy):** Dramatic surface washes, high-value container fills, and radiant radial backdrop glows. Anchored by `#4A000B` for low-tier shadows and `#990000` for illuminated vignettes.
+- **Tertiary (`#B91C1C` Blood Cherry Accent):** Used sparingly for urgent live alerts, RSVP confirmations, active indicators, and high-impact visual spikes.
+- **Neutral (`#0A0708` Deep Midnight Noir):** The primary canvas ground, supplemented by `#14090C` for raised lacquer cards and `#FBFBFB` (Holiday Pearl White) strictly for pristine editorial text and contrast legibility.
+
+## Typography
+
+The typographical hierarchy mirrors Parisian haute couture publishing: high-contrast editorial serifs (`Playfair Display`) paired with clean, tracked geometric sans-serifs (`Montserrat`).
+
+- **Serif Application:** Display and headline levels rely on `Playfair Display` with deliberate italic moments for romantic couture emphasis (e.g., *Le Smoking*, *L'Éclat*).
+- **Tracked Capitals:** All metadata, section eyebrows, CTAs, table reservations, and badge indicators utilize `label-caps-lg` or `label-caps-sm` with rigorous uppercase letter-spacing (0.18em to 0.22em).
+- **Body Styling:** Body text remains understated, set in light-to-regular weights with airy line heights to ensure legible, museum-grade layout balance against black lacquered backdrops.
+
+## Layout & Spacing
+
+The layout is structured upon a refined 12-column fluid grid system designed for expansive white (noir) space and theatrical pacing.
+
+### Layout Principles
+- **Grid Structure:** 12 columns across desktop with 1.5rem gutters; collapsible to 6 columns on tablet (2rem margins) and 4 columns on mobile (1rem gutters, 1.25rem margins).
+- **Breathing Room:** Key promotional hero pieces and gala showcases must use expansive section gaps (`space-xl` scaled dynamically up to 6rem on wide displays) to preserve the aura of bespoke exclusivity.
+- **Asymmetry:** Visual weight should alternate intentionally—dramatic full-bleed photography offset by narrow, highly structured typographic panels.
+
+## Elevation & Depth
+
+Visual hierarchy uses a couture blend of **translucent lacquer** and **warm specular lighting** instead of standard shadow drops.
+
+### Depth Mechanics
+- **Base Canvas:** Solid `#0A0708` infused with ambient radial gradients of `#6B0515` (15% to 30% opacity) positioned behind focal points.
+- **Lacquered Glass:** Elevated overlays and invitation cards use `rgba(20, 9, 12, 0.72)` paired with `backdrop-filter: blur(24px) saturate(140%)`.
+- **Couture Hairline Framing:** Containers elevate through a 1px solid or gradient border: `linear-gradient(135deg, rgba(212, 175, 55, 0.6) 0%, rgba(212, 175, 55, 0.1) 50%, rgba(185, 28, 28, 0.3) 100%)`.
+- **Specular Ambient Glows:** Active elements project a subtle gilded aura: `box-shadow: 0 12px 32px -4px rgba(212, 175, 55, 0.18), 0 4px 12px rgba(107, 5, 21, 0.4)`.
+
+## Shapes
+
+The geometric architecture is uncompromisingly architectural, sharp, and razor-finished (`roundedness: 0`). 
+
+- **Sharp Edges:** All buttons, panels, modal dialogs, and image frames carry 0px border-radius, referencing tailored lapels, faceted perfume bottles (e.g., YSL Libre, Tuxedo), and beveled gold ingots.
+- **Subtle Chamfers:** Exclusive celebratory cards may feature a 45-degree corner notch (4px–8px) to evoke traditional French ticket stubs and invitation stationery.
+
+## Components
+
+### Buttons
+- **Primary Couture Action:** Razor-cut rectangle with a burnished `#D4AF37` metallic background, `#0A0708` bold tracked typography, and a hairline highlight along the top edge. On hover, transitions into an illuminated liquid-champagne glow with an inset gold shimmer.
+- **Secondary Lacquer Action:** Jet `#0A0708` interior framed by a 1px solid `#D4AF37` border, typography set in `#FBFBFB` uppercase. On hover, background shifts to `rgba(107, 5, 21, 0.45)`.
+- **Ghost Action:** No border, tracked label in `#D4AF37` accompanied by an ultra-fine trailing arrow that elongates on hover.
+
+### Chips & Badges
+- Sharp rectangular capsules with 1px border `rgba(212, 175, 55, 0.4)`, background in `rgba(10, 7, 8, 0.8)`. Text rendered in `label-caps-sm` with `#FFDF73`. Used for VIP tiers, table designations, and product shade tags.
+
+### Input Fields
+- Understated, ultra-luxurious bottom-border-only or translucent-fill inputs. Baseline 1px border in `rgba(212, 175, 55, 0.3)`. Upon focus, the border intensifies to solid `#D4AF37` accompanied by a localized soft gold baseline glow. Text in `#FBFBFB`, placeholder in `rgba(251, 251, 251, 0.35)`.
+
+### Checkboxes & Radios
+- Sharp, square controls (no rounded corners). Custom 1px `#D4AF37` frame. Checked state displays an internal solid gold diamond or high-precision gilded core.
+
+### Cards & Panels
+- Multi-layered composition: Dark velvet glass backplate (`rgba(20, 9, 12, 0.75)`), 1px gradient gold perimeter border, and high-gloss specular highlight on the upper edge.
+
+### Specialized Gala Elements
+- **Stardust Shimmer Scrims:** Optional micro-particle overlays delivering subtle suspended festive gold particles across hero backdrops.
+- **VIP Seal:** Interactive metallic wax-stamp toggle that reveals itinerary secrets when engaged.

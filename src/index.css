@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", system-ui, -apple-system, sans-serif;
+
+  --color-gold-200: #faeed1;
+  --color-gold-300: #f5dfa3;
+  --color-gold-400: #e6ca65;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b58d1f;
+  --color-gold-700: #8c6a12;
+
+  --color-noir-950: #060102;
+  --color-noir-900: #0d0205;
+  --color-noir-850: #140307;
+  --color-noir-800: #1c050b;
+  --color-crimson-900: #38040d;
+  --color-crimson-800: #590716;
+  --color-crimson-700: #850b20;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #0d0205;
+    color: #fcfcfc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom Luxury Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d0205;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(212, 175, 55, 0.28);
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(212, 175, 55, 0.55);
+  }
+}
+
+/* Atmospheric Lighting Canvas */
+.gala-radial-canvas {
+  background:
+    radial-gradient(ellipse 90% 50% at 50% 0%, rgba(133, 11, 32, 0.45) 0%, rgba(56, 4, 13, 0.25) 50%, rgba(13, 2, 5, 0) 100%),
+    radial-gradient(circle at 85% 25%, rgba(212, 175, 55, 0.08) 0%, transparent 40%),
+    linear-gradient(180deg, #120205 0%, #0d0205 45%, #080103 100%);
+}
+
+.hero-crimson-glow {
+  background:
+    radial-gradient(circle at 75% 35%, rgba(153, 14, 38, 0.35) 0%, rgba(89, 7, 22, 0.15) 50%, transparent 75%),
+    radial-gradient(circle at 20% 40%, rgba(212, 175, 55, 0.06) 0%, transparent 55%),
+    radial-gradient(circle at 50% 85%, rgba(70, 5, 17, 0.3) 0%, transparent 70%);
+}
+
+/* High-End Glass Surfaces */
+.couture-glass {
+  background: rgba(18, 3, 7, 0.72);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.couture-glass-card {
+  background: linear-gradient(180deg, rgba(30, 4, 9, 0.65) 0%, rgba(14, 2, 5, 0.8) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.couture-glass-card:hover {
+  border-color: rgba(212, 175, 55, 0.35);
+  box-shadow: 0 16px 36px -10px rgba(0, 0, 0, 0.7), 0 0 20px -3px rgba(212, 175, 55, 0.12);
+}
+
+/* Metallic & Gold Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #faeed1 0%, #d4af37 50%, #b58d1f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.silver-laser-text {
+  background: linear-gradient(135deg, #ffffff 0%, #d8e2ec 40%, #8ea1b4 70%, #f0f4f8 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 12px rgba(216, 226, 236, 0.5);
+}
+
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #faeed1 0%, #d4af37 50%, #b58d1f 100%);
+  color: #0b0103;
+  transition: all 0.25s ease-out;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.2);
+}
+
+.gold-gradient-btn:hover {
+  background: linear-gradient(135deg, #fff5dc 0%, #e6ca65 50%, #c49925 100%);
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.35);
+  transform: translateY(-1px);
+}
+
+.gold-border-glow {
+  border: 1px solid rgba(212, 175, 55, 0.3);
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.1);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Shimmer Animation for Badges and Silver Laser */
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-badge {
+  background: linear-gradient(
+    90deg,
+    rgba(212, 175, 55, 0.15) 0%,
+    rgba(245, 223, 163, 0.4) 50%,
+    rgba(212, 175, 55, 0.15) 100%
+  );
+  background-size: 200% 100%;
+  animation: goldShimmer 4s infinite linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .shimmer-badge {
+    animation: none;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
